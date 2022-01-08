@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@drawable/h"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/kec2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#B5B5B6"
+        android:gravity="center"
+        android:text="Kongu Engineering College \nPerundurai Tamilnadu"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kec2"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="35dp"
+        android:background="#9C9999">
+
+        <TableRow android:background="#200125">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="11th MARK"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+
+                />
+        </TableRow>
+
+        <TableRow android:background="#9C9999">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="TAMIL"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markTam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/90"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="#716F6F">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="ENGLISH"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markEng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/90"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="#9C9999">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="MATHS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markMath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/90"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="#716F6F">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="PHYSICS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markPhy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/70"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="#9C9999">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="CHEMISTRY"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markChem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/70"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="#716F6F">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="BIO/CS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markCs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:inputType="number"
+                android:padding="2sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="/70"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout2"
+
+        android:layout_alignBottom="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#6C110A"
+        android:text="Next"
+        android:textSize="20sp"
+        tools:ignore="NotSibling" />
+
+
+</RelativeLayout>
